@@ -1,5 +1,5 @@
 from infrastructure import database as db
-from adapters.orm_repositories import start_mappers
+# from adapters.orm_repositories import start_mappers
 
 
 def initialize_database():
