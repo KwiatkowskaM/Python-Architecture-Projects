@@ -2,9 +2,6 @@ from sqlalchemy import Table, Column, Integer, String, MetaData
 from sqlalchemy.orm import registry
 from core.entities import User
 
-# Define the metadata and registry
-# metadata = MetaData()
-# mapper_registry = registry()
 
 # Define the table schema
 def create_table(metadata):
